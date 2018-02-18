@@ -1,0 +1,844 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*_________________________Debut Style Menu______________*/ 
+#nav_menu{
+	border:none;
+	background: none;
+}
+#div_chating{
+	 -webkit-animation-duration: 0.4s;
+}
+#nav_menu a:hover{color: #12C18B;}
+#db_fr:hover,#db_ar:hover{color: black !important;}
+#div_header{
+	margin-top: 3%;
+	max-height: 15%;
+}
+#img_logo{color: #12C18B;}
+.navbar-header #txt_hdv{
+	font-family:"Montserrat";
+	font-weight: 600;
+	color: #223B3E;
+	font-size: 1.2em;
+	display: inline;
+}
+.navbar-header #txt_point{
+	font-family:"Montserrat";
+	font-weight: 600;
+	color: #FFCA4B ;
+	font-size: 2em;
+	display: inline;
+}
+.nav a{
+	font-family:"Montserrat";
+	font-weight: 400;
+	font-size: 1.2em;
+}
+.navbar-header a{
+	font-family:"Montserrat";
+	font-weight: 600;	
+	font-size: 1.6em;
+}
+#lien_connecter{	
+	background: #12C18B;
+	border-radius: 7px;
+	color: white;		
+	padding: 10px 15px;
+}
+#lien_connecter:hover,#lien_connecter:focus{
+color: white !important;
+}
+#menu_separation{
+	width: 0px;
+	border-left: 2px solid #FFCA4B;
+	margin-left: 10px;
+}
+.navbar-nav > li > a {
+	padding: 0px;
+	line-height: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.navbar-brand {float: none;}
+.dropdown-menu{min-width: 0px;}
+/*____________________________________________FIN Style Menu_________________________________________*/
+/*____________________________________________Debut Style Footer______________________________________*/
+#txt_copyrights{
+	height: 7%;
+	width: 30%;
+	position: fixed;
+	margin-left: 7%;
+	bottom: 0px;
+	font-family:"Montserrat";
+	font-weight: 500;
+	color:#727E7F;
+}
+#div_btn_icon{
+	position: fixed;
+	 position:absolute;
+    bottom: 5%;
+    right: 10%;
+}
+#btn_rappeler,#div_chat{margin-right: 15px;}
+#btn_chat {color: #fff;}
+.btn-circle.btn-lg1 {
+  width: 50px;
+  height: 50px;
+  padding: 10px 10px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 30px;
+  box-shadow: 3px 3px 15px #cfcfcf;
+  background: #C2C1C3;
+  border:none;
+}
+.btn-circle.btn-lg1:hover {background: #12C18B;}
+.btn-circle.btn-lg2 {
+  width: 50px;
+  height: 50px;
+  padding: 10px 13px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 30px;
+  box-shadow: 3px 3px 15px #cfcfcf;
+  background: #4A696D;
+  border:none;
+}
+.btn-circle.btn-lg2:hover {background: #223B3E;}
+.btn-circle{outline: 0px !important;}
+/*____________________________________________Fin Style Footer______________________________________*/
+/*-__________________________________________________Debut Facebook___________________________________________*/
+#div_body{
+	height: 75%;
+	padding-top: 8%;
+	width: 100%;
+	overflow: hidden;
+}
+#div_row{
+	overflow: hidden;
+    height: 100%;
+}
+.fill{
+	min-height: 100%;
+	height: 100%;  
+}
+#div_pmp .row .row{height: 57px; }
+#div_pmp .row .row div,#div_pmp{overflow: hidden;}
+#div_fb_rat{text-align: center;}
+#div_hr{
+	padding-left: 9%;
+	padding-right: 9%;
+	padding-top: 2%;
+}
+#div_hr hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #12C18B;
+    margin: 1em 0;
+    padding: 0;
+}
+#txt_rate{
+	margin-top: 4%;
+	font-family:"Montserrat";
+	font-weight: 500;
+	color: #223B3E ;
+	font-size: 1.1em;
+}#btn_rate,#btn_rate_in,#btn_review_add{
+	padding: 3% 2%;
+	margin-top: 4%;
+	border-radius: 7px;
+	background:  #12C18B;
+  	font-family:"Montserrat";
+	font-weight: 500;
+	border: none;
+	outline: 0px !important;
+} 
+/*-__________________________________________________FIN Facebook___________________________________________*/
+ /*_________________________________________________Debut Summary_________________________________________*/
+#txt_summary_title{
+	-webkit-animation-duration: 0.5s;
+	line-height: 20px;
+	font-size: 4.018em;
+	color: #FFCA4B;
+	font-family:"Montserrat";
+	font-weight: 300;
+}
+#div_summary,#div_signin,#div_signup,#div_forgot_password{		
+	float: right;
+	margin-right: 3%;
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow: hidden;
+    max-width: 60%;
+}
+#div_signup_done{
+    display: none;
+}
+#div_fluid{
+    height: 100%;
+   	min-height: 100%;
+}
+#txt_summary_subtitle{
+	font-size: 2.76em;
+	-webkit-animation-duration: 0.5s;
+ 	color: #223B3E;
+ 	font-family:"Montserrat";
+	font-weight: 600;
+}
+#txt_summary_desc{
+	line-height: 40px;
+	font-size: 2.3em;
+	-webkit-animation-duration: 0.5s;
+	font-family:"Montserrat";
+	font-weight: 300;
+	color: #223B3E;
+	max-width: 95%;
+}#div_btn{
+	padding-top: 2%;
+	-webkit-animation-delay: 0.5s;
+    -webkit-animation-duration: 0.5s;
+}
+#btn_sinin{
+	padding-left: 13%;
+	padding-right: 13%;
+	padding-top: 2%;
+	border-radius: 7px;
+	background: #223B3E;
+  	font-family:"Montserrat";
+	font-weight: 500;	
+	padding-bottom: 2%;
+	border: none;
+	outline: 0px !important;
+}
+#btn_signup{
+	padding-left: 13%;
+	padding-right: 13%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border-radius: 7px;
+	background: #223B3E;
+	font-family:"Montserrat";
+	font-weight: 500;
+	border: none;
+	outline: 0px !important;
+}
+#txt_or{
+	display: inline;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-family:"Montserrat";
+	font-weight: 500;
+	color: #223B3E;
+}
+/*_________________________________________________FIN Summary_________________________________________*/
+    /*________________________________________Debut Sign IN________________________________________________*/
+#div_summary,#div_signin,#div_signup,#div_forgot_password{		
+	float: right;
+	margin-right: 3%;
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow: hidden;
+    max-width: 60%;
+}
+#div_signin,#div_signup{
+	display: none;
+	overflow: hidden;
+}
+#txt_signin{
+	line-height: 20px;
+	font-size: 4.018em;
+	-webkit-animation-duration: 0.5s;
+	color: #FFCA4B;
+	font-family:"Montserrat";
+	font-weight: 300;
+	margin-bottom: 10%;
+}
+#tb_username_in{-webkit-animation-delay: 0.1s;
+-webkit-animation-duration: 0.5s;}
+#tb_username_in,#tb_password_in,#tb_username_up,#tb_email_up,#tb_tel_up{width: 100%;}
+#tb_password_in{
+    -webkit-animation-delay: 0.2s;
+    -webkit-animation-duration: 0.5s;
+}
+#tb_username_in,#tb_password_in,#tb_username_up,#tb_email_up,#tb_tel_up{width: 100%;}
+#cb_remember_me{
+	font-family:"Montserrat";
+	font-weight: 300;
+	color:#4A696D;
+	display: inline;
+	margin-right: 15%;
+	padding-top: 1%;
+	font-size: 1em;
+}
+#cb_remember_me2{
+	font-size: 1em;
+}
+#div_cb_remember_me_sign_in{
+	-webkit-animation-delay: 0.3s;
+	-webkit-animation-duration: 0.5s;	
+}
+
+#btn_signin_in,#btn_demander_sign_up,#btn_demande_signin_in{
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	border-radius: 7px;
+	background: #223B3E;
+  	font-family:"Montserrat";
+	font-weight: 500;	
+	padding-bottom: 10px;
+	border: none;
+	/*margin-left: 8%;*/
+	outline: 0px !important;
+   
+}
+#lien_forgot_in{
+    -webkit-animation-delay: 0.4s;
+    -webkit-animation-duration: 0.5s;
+    font-family:"Montserrat";
+	font-weight: 400;
+	color: #4A696D;
+	margin-top: 2%;
+	float: right;
+}
+#have_not{
+	text-align: center;
+	margin-top: 15%;
+    -webkit-animation-delay: 0.5s;
+    -webkit-animation-duration: 0.5s;
+}
+#have_not p{
+    font-family:"Montserrat";
+	font-weight: 400;
+	color: #4A696D;
+}
+#lien_signup{
+	color: #12C18B;
+	font-family:"Montserrat";
+	font-weight: 400;
+	text-decoration: none;
+	cursor: pointer;
+}
+.mdl-checkbox.is-checked .mdl-checkbox__box-outline {border: 2px solid #12C18B;}
+.mdl-checkbox.is-checked .mdl-checkbox__tick-outline {background-color: #12C18B;}
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__label, .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
+    color: #12C18B;
+    font-size: 12px;
+    top: 4px;
+    visibility: visible;
+}
+.mdl-textfield__label:after{
+	background-color: #12C18B;
+	bottom: 15px;
+}
+.mdl-textfield__label {
+	font-size: 15px;
+	font-family:"Montserrat";
+	font-weight: 300;
+	color: #727E7F;
+	top: 10px;
+	padding-left: 1%;
+}
+.mdl-textfield__input{padding: 0px;}
+    /*________________________________________FIN Sign IN________________________________________________*/
+    /*-_____________________________________________Debut Sign up_____________________________________________________-*/
+
+#div_summary,#div_signin,#div_signup,#div_forgot_password{		
+	float: right;
+	margin-right: 3%;
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow: hidden;
+    max-width: 60%;
+}
+#txt_signup{
+	line-height: 20px;
+	font-size: 2.80em;
+	-webkit-animation-duration: 0.5s;
+	color: #FFCA4B;
+	font-family:"Montserrat";
+	font-weight: 300;
+	margin-bottom: 4%;
+}
+#tb_username_up{
+    -webkit-animation-delay: 0.1s;
+}
+#tb_username_in,#tb_password_in,#tb_username_up,#tb_email_up,#tb_tel_up{
+	width: 100%;
+}
+#tb_password_up{
+    -webkit-animation-delay: 0.2s;
+}
+#tb_confirm_password{
+    -webkit-animation-delay: 0.2s;
+}
+#tb_password_up,#tb_confirm_password{
+	width: 45%;
+}
+#tb_email_up{
+    -webkit-animation-delay: 0.3s;
+}
+#tb_tel_up{
+    -webkit-animation-delay: 0.4s;
+}
+#btn_sign_up{
+    -webkit-animation-delay: 0.5s;
+}
+#btn_sign_up{
+	padding-left: 13%;
+	padding-right: 13%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border-radius: 7px;
+	background: #223B3E;
+	font-family:"Montserrat";
+	font-weight: 500;
+	border: none;
+	float: right;
+	margin-top: 4%;
+	outline: 0px !important;
+}
+#recaptcha2{
+	display: inline;
+	float: left;
+}
+#already{
+    -webkit-animation-delay: 0.7s;
+}
+#already{
+	text-align: center;
+	margin-top: 6%;
+	
+}
+#already p{
+	font-family:"Montserrat";
+	font-weight: 400;
+	color: #4A696D;
+}
+#already a{
+	font-family:"Montserrat";
+	font-weight: 400;
+	color: #12C18B;
+}
+#lien_signin{
+		text-decoration: none;
+		cursor: pointer;
+	}
+	/*-_____________________________________________Fin Sign up_____________________________________________________-*/
+	/*_______________________________________Debut forget password__________________________________________________________*/
+#div_summary,#div_signin,#div_signup,#div_forgot_password{		
+	float: right;
+	margin-right: 3%;
+    margin-top: auto;
+    margin-bottom: auto;
+    overflow: hidden;
+    max-width: 60%;
+}
+#div_forgot_password{
+	text-align: center;
+    display: none; 
+}
+#div_forgot_password input[type="text"],
+#div_forgot_password input[type="password"]{width: 100%;}
+#div_pg_forgot_pass{
+ 
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#div_pg_forgot_pass{-webkit-animation-delay: 0.1s;}
+#background_forgot{
+    background-color: #F7F6F6;
+    border: thin solid #abe4b2;
+    height: 280px;
+}
+#div_forgot_pass_mail{width: 100%;}
+#txt_fg_pass_verifier{
+    -webkit-animation-delay: 0.2s;
+    font-family:"Montserrat";
+	font-weight: 500;
+    color: #223B3E;
+    margin-top: 5%;
+    font-size: 1em;
+}
+#tb_fg_pass_mail{
+    -webkit-animation-delay: 0.3s;
+    margin-top: 3%;
+    color: #727E7F;
+	width: 80%;
+}
+#btn_fg_pass_valider{
+    -webkit-animation-delay: 0.5s;
+    display: inline;
+    padding-left: 12%;
+	padding-right: 12%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border-radius: 7px;
+	background: #223B3E;
+  	font-family:"Montserrat";
+	font-weight: 500;	
+	border: none;
+	margin-left:42%;
+	margin-top: 1%;
+	outline: 0px !important;
+}
+#lien_fg_pass_signup a{   
+	font-family:"Montserrat";
+	font-weight: 400;
+	color: #12C18B ;
+	text-decoration: none;
+	cursor: pointer;
+}
+#lien_fg_pass_signup{
+    -webkit-animation-delay: 0.6s;
+    	margin-top: 5%;
+    	color:#727E7F;
+    	font-family:"Montserrat";
+		font-weight: 400;
+		padding-bottom: 3%;
+}
+#div_forgot_pass_verification{
+    display: none;
+    width: 80%;  
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+#txt_fg_pass_code{
+	padding-left: 4%;
+	padding-top: 5%;
+	font-family:"Montserrat";
+	font-weight: 400;
+	color: #4A696D ;
+	font-size: 1.2em;
+    -webkit-animation-delay: 0.1s;
+}
+#form_forgot_pass2{
+	margin-top: 4%;
+	margin-left: 4%;
+}
+#tb_fg_pass_code{
+	width: 85%;
+    -webkit-animation-delay: 0.2s;
+}
+#btn_fg_pass_continuer{
+    padding-left: 13%;
+	padding-right: 8%;
+	padding-left: 8%;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+	border-radius: 7px;
+	background: #223B3E;
+	font-family:"Montserrat";
+	font-weight: 500;
+	border: none;
+	margin-bottom: 9%;
+    -webkit-animation-delay: 0.3s;   
+    outline: 0px !important;
+}
+#lien_fg_pass_renvoyer{
+	color: #4A696D;
+  	font-family:"Montserrat";
+	font-weight: 300;
+	font-size:0.9em ;
+	margin-bottom: 5%;
+    -webkit-animation-delay: 0.4s;
+}
+#lien_fg_pass_renvoyer a{
+	color: #12c18b;
+	text-decoration: underline;
+	font-family:"Montserrat";
+	font-weight: 300;
+	cursor: pointer; 
+}
+#div_forgot_pass_reset{
+	display: none;
+    width: 100%;    
+}
+#txt_fg_pass_mdp{
+    -webkit-animation-delay: 0.1s;
+    font-family:"Montserrat";
+	font-weight: 500;
+	color: #223B3E ;
+	font-size: 1em;
+	margin-top: 5%;
+    margin-bottom: 5%;
+}
+#tb_fg_pass_mdp{
+	width: 80%;
+    -webkit-animation-delay: 0.3s;
+}
+#tb_fg_pass_confirm{-webkit-animation-delay: 0.5s;}
+#tb_fg_pass_confirm{width: 80%;}
+#btn_fg_pass_reset{
+    -webkit-animation-delay: 0.7s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2% 3%;
+	margin-top: 4%;
+	border-radius: 7px;
+	background:  #223B3E;
+  	font-family:"Montserrat";
+	font-weight: 600;
+	border: none;
+	margin-bottom: 6%;
+	outline: 0px !important;
+}
+
+#txt_fg_pass_done{
+	font-family:"Montserrat";
+	font-weight: 300;
+	color: #12C18B;
+}
+#btn_fg_pass_signin{ 
+	padding-right: 12%;
+	padding-left: 12%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	border-radius: 3px;
+	background:  #223B3E;
+  	font-family:"Montserrat";
+	font-weight: 500;
+	border: none;
+	margin-bottom: 6%;
+	outline: 0px !important;
+	color: white;
+	margin-top: 12%;
+	}
+#img_fg_pass_done,#txt_fg_pass_done,#btn_fg_pass_signin{
+    overflow: hidden;
+}
+#img_fg_pass_done{
+    -webkit-animation-delay: 0.2s;
+}
+#txt_fg_pass_done{
+    -webkit-animation-delay: 0.4s;
+}
+#btn_fg_pass_signin{
+    -webkit-animation-delay: 0.6s;
+}
+/*_______________________________________FIN forget password__________________________________________________________*/
+/*__________________________________________DEBUT COMMENAITRES _____________________________________________________*/
+#header_comment{
+    display: none;
+}
+#rating_div{
+    width: 80%;
+    height: 100%;
+    color: #9A9999;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+}
+#rating_div h2,#rating_div h3{
+    line-height:25px;
+    font-size: 1.5em;
+   font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin: 0;
+}
+.div_reviews_add{margin-bottom: 15px;}
+#div_pmp .row .row{height: 57px; }
+#div_pmp .row .row div,#div_pmp{overflow: hidden;}
+#div_fb_rat{text-align: center;}
+#div_hr{
+	padding-left: 9%;
+	padding-right: 9%;
+	padding-top: 2%;
+}
+#div_pmp .row .row{ height: 57px;}
+#div_pmp .row .row div,#div_pmp{overflow: hidden;}
+#txt_review_average{    
+    padding-right: 0;   
+    margin-right: 0;
+}
+#score_rating{
+    font-size: 50px;
+    color: #223B3E;
+    height: 100%;
+    line-height: 50px;
+    font-weight: 300;  
+    font-family:"Montserrat";
+}
+#div_reviews_average{
+    padding-right: 0;
+    padding-left: 9px;
+}
+#number_reviews_out{
+    color: #12C18B;
+    height: 24px;
+    line-height: 24px;
+}
+#div_reviews_button_add{
+    position: relative;
+    height: 50px;
+}
+#btn_rexiews_add svg,#div_btn_icon svg,#btn_chat svg{vertical-align: sub;}
+#btn_rexiews_add{  
+    font-weight: 300;
+    right: 35px;
+    border-radius: 3px;
+    background: #4A696D;
+    font-family:"Montserrat";
+    border: none;
+    position: absolute;
+    bottom: 0;
+}
+#les_commentaires{
+    overflow-y: auto;
+    height: 480px;
+    padding-right: 8px;
+}
+#les_commentaires .txt_review_commandes,#les_commentaires  .txt_review_date{font-size: 0.7em;margin-top: -8px;
+width: 115px;}
+#les_commentaires .txt_review_commandes{display: inline;}
+#les_commentaires h3{font-size: 1.5em;}
+#les_commentaires h3,#number_reviews{color: #12C18B;}
+.txt_review_commandes{text-align: right;}
+.fo9image{
+	width: 100%;
+    height: 110px;
+	margin:0px;
+	border: thin solid #abe4b2;
+	margin-bottom: 1%;
+	background-color: #F7F6F6;
+    border: thin solid #ABE4D2;
+    padding-top:22px;
+    padding-bottom: 22px;
+    overflow: hidden;
+}
+.fo9image img{display: inline;}
+.img_review_profil{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%; 
+}
+.txt_review{
+    font-size: 0.95em;
+    font-weight: 400;
+}
+#txt_review_title{
+	font-family:"Montserrat";
+	font-weight: 500;
+}
+#btn_rexiews_add_p{
+	display: inline;
+	font-family:"Montserrat";
+	color: #ECECEC;
+}
+.txt_review_profil_name{
+	color: #12C18B !important;
+	font-family:"Montserrat";
+	font-weight: 400!important;
+	font-size: 1.2em !important;
+}
+.group{
+	margin-left: 2%;
+	margin-right: 1%;
+}
+.nbr_commandes{
+    width: 115px;
+}
+/*__________________________________________FIN COMMENAITRES _____________________________________________________*/
+/*__________________________________________Debut Progress bar  _____________________________________________________*/
+.y,.ky{width:0%;background-color:#12c18b;height:4px;margin:0;padding:0;
+    position: absolute;bottom: -2px;}
+.ligne,.kigne{width:100%;border:2px solid #c2c1c3;height:0px;position: relative;border-left:none;border-right:none;
+    margin-top: 21px;
+    }
+#div_p_m,#div_k_m,#div_k_m2,#server_pg_txt,#login_pg_txt0{
+    width: 43px;
+    margin-left: 24px;
+} 
+
+#div_p_left,#div_p_right,#div_k_left,#div_k_right,#div_k_left2,#div_k_right2{
+    -webkit-box-sizing:border-box;
+       -moz-box-sizing:border-box;
+            box-sizing:border-box; 
+}
+#div_p_left,#div_k_left,#div_k_left2{ 
+    margin-right: -24px;
+    float: left;
+}
+.circle_progress,.circle_progress2,.kircle_progress,.kircle_progress2{
+    height: 43px;
+    width: 43px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid #12c18b;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    border-width: 2px;
+}
+.text_kirkle{
+    width: 32px;
+    margin-left: -15px;
+    padding-left: 0;
+    padding-right: 0;
+}
+#progress_acheter_txt{
+    width: 43px;
+    margin-left: 50px;
+    padding-left: 0;
+    padding-right: 0;
+}
+#circlep1,#kirclep1,#game_pg_txt{
+   float: right;
+}
+#game_pg_txt{
+    margin-right: 5px;
+ 
+}
+.makinwalo{
+	 font-family:"Montserrat";
+  font-weight: 400;
+  color:#727E7F;
+}
+.circle_progress2,.kircle_progress2{
+      border: 2px solid #c2c1c3;  
+    }
+#div_pg_forgot_pass div[class^="col-"],#div_pg_forgot_pass_txt div[class^="col-"],
+#div_pg_in div[class^="col-"],#div_pg_in_txt div[class^="col-"]{
+   
+     padding-right: 0; 
+    padding-left: 0; 
+}
+#div_pg_forgot_pass .row,#div_pg_forgot_pass_txt .row,#div_pg_in .row,#div_pg_in .row .row,#div_pg_in_txt .row,#div_pg_in_txt .row .row {
+        margin-right: 0;
+        margin-left: 0;
+        padding: 0;
+}
+#div_pg_forgot_pass,#div_pg_in,#div_pg_in_txt{
+      height: 50px;
+}
+#div_pg_in,#div_pg_in_txt{
+    width: 70%;
+    overflow: visible;
+    margin-left: auto;
+    margin-right: auto;
+}
+.colm{
+   width: 110px;
+    margin-right: -12px;
+}
+#col_m_c{
+    width: 100px;
+    margin-right: -12px;
+}
+#email_forget{
+    padding-left: 5px;
+}
+#reset_forget{
+    padding-right: 5px;
+}
+/*__________________________________________FIN Progress bar _____________________________________________________*/

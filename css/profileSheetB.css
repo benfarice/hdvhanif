@@ -1,0 +1,1354 @@
+*{
+     font-family:"Montserrat";
+     
+   }
+
+#div_pg_in{
+    width: 60%;
+    height: 50px;
+    background-color: cornflowerblue;
+   
+}
+
+/* ______________test _____
+
+_____________ */
+/*
+#div_acheter_in{
+    display: none;
+}
+*/
+/* ______________test __________________ */
+#horizontal_row_av_connecter{
+
+    background-color: #ECECEC;
+}
+#profile_photo{
+
+    border-radius: 50%;
+    display: inline;
+    position: absolute;
+    top: 0;
+    
+}
+#div_game{
+    text-align: center;
+   
+   
+}
+#nav_connecter svg{
+    
+}
+#nav_connecter a{
+    color:#727E7F;
+    font-size: 0.9em;
+    font-family:"Montserrat";
+	font-weight: 400;
+    
+}
+#img_dofus_2,#img_dofus129,#img_dofus_touch{
+   
+    height: 250px;
+    
+    
+    
+}
+#div_server,#div_demander,#div_done{
+    width: 100%;
+    height: 400px;
+   
+    text-align: center;
+    
+   
+}
+
+#div_pg_in,#div_dofus_2,#div_dofus_touch,#div_dofus_129{
+    
+    overflow: hidden;
+}
+#div_pg_in{
+    -webkit-animation-delay: 0.5s;
+}
+#div_acheter_in{
+    overflow: hidden;
+}
+#div_dofus_2{
+    -webkit-animation-delay: 0.3s;
+}
+#div_dofus_129{
+    -webkit-animation-delay: 0.4s;
+}
+#div_dofus_touch{
+    -webkit-animation-delay: 0.5s;
+}
+/* ______________01_07_2017__________________ 
+
+#div_game{
+     display: none;
+}
+/* ______________test __________________ */
+
+#div_demander{
+    background-color: darkcyan;}
+#div_demander{
+    background-color: cornflowerblue;
+}
+#div_done{
+    
+    color: #9A9999;
+}
+#div_demander,#div_server,#div_done,#div_acheter_in,#div_forgot_pass_done{
+     display: none;
+}
+
+#img_dofus_2
+{
+        background:#788f92 url('../images/Dofus2_bg.png') no-repeat center center;
+       
+}
+#img_dofus129{
+    background:#788f92 url('../images/Dofus129_bg.png') no-repeat center center;
+}
+#img_dofus_touch{
+     background:#788f92 url('../images/Dofus_touch_bg.png') no-repeat center center;
+}
+#div_dofus_2,#div_dofus_touch,#div_dofus_129{
+        width: 80%;
+         border-radius:40px;
+        overflow: hidden;
+}
+.blend.multiply
+ {
+     
+         background-blend-mode: luminosity;
+ }
+.blend.multiply:hover
+ {
+         background-blend-mode: normal;
+         transform:scale(1.1,1.1);
+        
+ }
+#dofus2_logo,#dofus129_logo,#dofus_touch_logo{
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    bottom: 15px;
+    left: 40%;
+}
+/* ___________________________ */
+#acheter_vendre p{
+  
+}
+#acheter_logo,#vendre_logo{
+    height: 200px;
+    
+    text-align: center;
+    border-radius: 35px;
+}
+#acheter_logo{
+    background-color: chartreuse;
+}
+#vendre_logo{
+    background-color: cornflowerblue;
+}
+.table tr{
+    background-color: whitesmoke;
+}
+.table .h{
+    background-color: white;
+   
+}
+.table td,.table th{
+  
+    border:none !important;
+    vertical-align: middle !important;
+}
+.table-hover > tbody > tr{
+    border: 4px solid green;
+}
+.table-hover > tbody > tr th p{
+   
+    display: inline;
+}
+.table-hover > tbody > tr:hover {
+  background-color: #12C18B;
+}
+
+.table-bordered,.table, .table-hover {
+ 
+ border-collapse:separate; 
+    border-spacing:0 10px;
+}
+#div_row_page1{
+    overflow: visible;
+   
+}
+#list_server{
+    overflow: auto;
+    height:295px;
+    
+}
+#list_server thead{
+    background-color: white;
+    border-width: 0;
+}
+#list_server tr{
+   
+}
+.dropdown{
+  display: inline;
+}
+
+#div_home_in_vendre,#div_home_in_acheter{
+    
+    color: white;
+    text-align: center;
+   position: relative;
+    border-radius: 35px;
+}
+#img_home_in_acheter,#img_home_in_vendre{
+ 
+    z-index: 1;
+}
+#txt_home_in_acheter,#txt_home_in_vendre,#btn_home_in_vendre,#btn_home_in_acheter{
+    position: absolute;
+    
+    z-index: 2;
+}
+#txt_home_in_acheter,#txt_home_in_vendre{
+    bottom: 40%;
+}
+#txt_home_in_acheter{
+    left: 40%;
+    width: 50%;
+    right: 10%;
+}
+#btn_home_in_acheter{
+    left: 55%;
+    width: 20%;
+    right: 25%;
+}
+#txt_home_in_vendre{
+    right: 40%;
+    width: 50%;
+    left: 10%;
+}
+#btn_home_in_vendre{
+     right: 55%;
+    width: 20%;
+    left: 25%;
+}
+#btn_home_in_vendre,#btn_home_in_acheter{
+     bottom: 35%;
+    background-color: Transparent;
+     background-repeat:no-repeat;
+      cursor:pointer;
+}
+#div_home_in_vendre{
+   
+}
+#div_acheter_in{
+    overflow: hidden;
+    width: 100%;
+}
+#div_acheter_in{
+     display: none;
+}
+#div_pg_in{
+    width: 60%;
+    height: 50px;
+    background-color: cornflowerblue;
+   
+}
+#div_pg_in{
+    -webkit-animation-delay: 0.5s;
+}
+#div_game{
+    text-align: center;
+}
+#div_pg_in,#div_dofus_2,#div_dofus_touch,#div_dofus_129{
+    -webkit-animation-duration: 1.5s;
+    overflow: hidden;
+}
+#div_dofus_2{
+    -webkit-animation-delay: 0.3s;
+}
+#div_dofus_129{
+    -webkit-animation-delay: 0.4s;
+}
+#div_dofus_touch{
+    -webkit-animation-delay: 0.5s;
+}
+
+#img_dofus_2
+{
+        background:#788f92 url('../images/Dofus2_bg.png') no-repeat center center;
+       
+}
+#img_dofus129{
+    background:#788f92 url('../images/Dofus129_bg.png') no-repeat center center;
+}
+#img_dofus_touch{
+     background:#788f92 url('../images/Dofus_touch_bg.png') no-repeat center center;
+}
+#div_dofus_2,#div_dofus_touch,#div_dofus_129{
+        width: 80%;
+         border-radius:40px;
+        overflow: hidden;
+}
+.blend.multiply
+ {
+     
+         background-blend-mode: luminosity;
+ }
+.blend.multiply:hover
+ {
+         background-blend-mode: normal;
+         transform:scale(1.1,1.1);
+        
+ }
+#dofus2_logo,#dofus129_logo,#dofus_touch_logo{
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    bottom: 15px;
+    left: 40%;
+}
+#div_demander,#div_done{
+    width: 100%;
+    height: 300px;
+   
+    text-align: center;
+    
+   
+}
+#img_dofus_2,#img_dofus129,#img_dofus_touch{
+   
+    height: 250px;
+    
+    
+    
+}
+
+
+#div_demander,#div_server,#div_done,#div_acheter_in{
+     display: none;
+}
+#div_login_acheter{
+    display: none;
+    width: 80%;
+    background-color: #F8F8F8;
+    height: 300px;
+   
+}
+#div_login_acheter p{
+    font-size: 2em;
+    
+}
+#login_sign_up_acheter{
+
+    width:80%;
+}
+#login_sign_up_acheter button{
+    width: 100%;
+    background-color: #223B3E;
+    color: white;
+}
+.table tr{
+    background-color: whitesmoke;
+}
+.table .h{
+    background-color: white;
+    
+   
+}
+.table,.table td,.table th{
+    vertical-align: middle !important;
+}
+/*---------
+.table :not(.table-hover > tbody > tr),
+  border-left: thin solid #12C18B ;
+---------*/
+.table td,.table th,.table-hover > tbody > tr > td,.table-hover > tbody > tr > th,.table-bordered{
+  
+    border:none;
+}
+
+.table-hover > tbody > tr,.table-bordered > tbody > tr{
+   padding: 25px;
+   outline: thin solid #ABE4D2 ;
+   border: 1px solid black  !important ;
+  
+}
+.table-bordered {
+  border-bottom: none;
+    border-right: none;
+    border-top: none;
+}
+.table-bordered  {
+  border: 1px solid #FFF;
+}
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+  border: 1px solid #F7F6F6;
+}
+
+.table-hover > tbody > tr th p{
+
+    display: inline;
+}
+.table-hover > tbody > tr:hover {
+  background-color: #12C18B;
+    cursor: pointer;
+}
+
+.table-bordered,.table, .table-hover {
+ 
+ border-collapse:separate; 
+    border-spacing:0 10px;
+}
+
+#list_server{
+    overflow: auto;
+    height:355px;
+    width: 100%;
+   
+    
+    
+}
+#list_server thead{
+    background-color: white;
+    border-width: 0;
+}
+#list_server tr{
+   
+}
+#list_server tr:first-child {
+  
+}
+.dropdown{
+  display: inline;
+}
+.server_nom{
+    
+ 
+}
+#div_prix_region{
+    width: 80%;
+    height: 50px;
+   
+  
+}
+#div_prix_region span{
+  color: green !important ;
+}
+#div_prix_region a{
+  color: black !important ;
+}
+#db_server_region{
+  
+}
+#db_server_prix span
+{
+   color: aquamarine; 
+}
+.n_icon{
+    cursor: pointer;
+}
+.fill{
+	min-height: 100%;
+	height: 100%;  
+	}
+html,body {
+    height: 100%;
+    max-height: 100%;
+    min-height: 100%;
+}
+#div_fluid {
+    height: 100%;
+   	min-height: 100%;
+}
+
+#div_header{
+	
+	max-height: 15%;
+}
+#div_body{
+	height: 75%;
+	
+	width: 100%;
+
+}
+#div_pmp{
+    height: 80%;
+    width: 100%;
+
+}
+#div_server{
+    
+}
+#div_signup_done{
+    display: none;
+}
+#div_signup_done{
+    text-align: center;
+}
+#div_summary,#div_signin,#div_signup,#div_forgot_password{		
+	float: right;
+	
+    
+    overflow: hidden;
+    max-width: 60%;
+}
+#btn_rate,#btn_rate_in,#btn_review_add{
+	
+	
+	border-radius: 7px;
+	background:  #12C18B;
+  	font-family:"Montserrat";
+	font-weight: 500;
+	border: none;
+}
+#btn_infos_edit,#btn_infos_save,#btn_infos_cancel,#btn_changer_password,#btn_cmd_filter{
+    border-radius: 7px;
+	background:  #12C18B;
+  	font-family:"Montserrat";
+	font-weight: 500;
+	border: none;
+}
+#btn_review_add{
+    font-weight: 300;
+    width: 90%;
+}
+#btn_rexiews_add svg,#div_btn_icon svg,#btn_chat svg{
+    vertical-align: sub;
+}
+#btn_rexiews_add{
+    
+    font-weight: 300;
+   
+    right: 35px;
+    border-radius: 2px;
+    background: #4A696D;
+    font-family:"Montserrat";
+    border: none;
+    position: absolute;
+    bottom: 0;
+}
+#div_signin,#div_signup{
+	display: none;
+	overflow: hidden;
+}
+#div_row{
+	overflow: hidden;
+    height: 100%;
+}
+
+#txt_summary_title{
+	line-height: 20px;
+	font-size: 4.018em;
+	-webkit-animation-duration: 0.5s;
+	color: #FFCA4B;
+	font-family:"Montserrat";
+	font-weight: 300;
+}
+#txt_summary_subtitle{
+	font-size: 2.76em;
+	-webkit-animation-duration: 0.5s;
+ 	color: #223B3E;
+ 	font-family:"Montserrat";
+	font-weight: 600;
+}
+#txt_summary_desc{
+	line-height: 40px;
+	font-size: 2.3em;
+	-webkit-animation-duration: 0.5s;
+	font-family:"Montserrat";
+	font-weight: 300;
+	color: #223B3E;
+	max-width: 95%;
+
+
+}
+/* ________________________ */
+#txt_signin{
+	line-height: 20px;
+	font-size: 4.018em;
+	-webkit-animation-duration: 0.5s;
+	color: #FFCA4B;
+	font-family:"Montserrat";
+	font-weight: 300;
+	
+}
+#tb_username_in{
+    -webkit-animation-delay: 0.08s;
+}
+#tb_password_in{
+    -webkit-animation-delay: 0.09s;
+}
+#cb_remember_me{
+    -webkit-animation-delay: 0.11s;
+	font-family:"Montserrat";
+	font-weight: 300;
+	color:#4A696D;
+	display: inline;
+	
+}
+#btn_signin_in{
+    -webkit-animation-delay: 0.11s;
+}
+#lien_forgot_in{
+    -webkit-animation-delay: 0.11s;
+    font-family:"Montserrat";
+	font-weight: 400;
+	color: #4A696D;
+	
+	float: right;
+}
+#have_not{
+	text-align: center;
+
+    -webkit-animation-delay: 0.11s;
+}
+#have_not p{
+     font-family:"Montserrat";
+	font-weight: 400;
+	color: #4A696D;
+}
+#lien_signup{
+
+	color: #12C18B;
+	font-family:"Montserrat";
+	font-weight: 400;
+	text-decoration: none;
+	cursor: pointer;
+}
+/* ________________________ */
+#tb_username_up{
+    -webkit-animation-delay: 0.1s;
+}
+#tb_password_up{
+    -webkit-animation-delay: 0.2s;
+}
+#tb_confirm_password{
+    -webkit-animation-delay: 0.2s;
+}
+#tb_email_up{
+    -webkit-animation-delay: 0.3s;
+}
+#tb_tel_up{
+    -webkit-animation-delay: 0.4s;
+}
+#recaptcha1{
+    -webkit-animation-delay: 0.4s;
+    display: inline;
+}
+#btn_sign_up{
+    -webkit-animation-delay: 0.5s;
+}
+#already{
+    -webkit-animation-delay: 0.7s;
+}
+/* ________________________ */
+#div_prix_region{
+    height: 15px;
+   
+}
+#tb_username_in,#tb_password_in,#tb_username_up,#tb_email_up,#tb_tel_up{
+	width: 100%;
+}
+#tb_password_up,#tb_confirm_password{
+	width: 45%;
+}
+#div_footer{
+	width: 1000px;
+	height: 100px;
+
+
+}
+#btn_signup{
+	
+	border-radius: 7px;
+	background: #223B3E;
+	font-family:"Montserrat";
+	font-weight: 500;
+	border: none;
+}
+
+#btn_sinin{
+	
+	border-radius: 7px;
+	background: #223B3E;
+  	font-family:"Montserrat";
+	font-weight: 500;	
+	
+	border: none;
+}
+
+#txt_or{
+	display: inline;
+	
+	font-family:"Montserrat";
+	font-weight: 500;
+	color: #223B3E;
+
+}
+#div_btn{
+	
+	-webkit-animation-delay: 0.5s;
+    -webkit-animation-duration: 0.5s;
+}
+
+#div_hr{
+	
+}
+
+#div_fb_rat{
+	text-align: center;
+
+}
+.nav a{
+	font-family:"Montserrat";
+	font-weight: 400;
+	font-size: 1.2em;
+}
+.navbar-header a{
+	font-family:"Montserrat";
+	font-weight: 600;	
+	font-size: 1.6em;
+}
+.navbar-header #txt_hdv{
+	font-family:"Montserrat";
+	font-weight: 600;
+	color: #223B3E;
+	font-size: 1.2em;
+	display: inline;
+}
+.navbar-header #txt_point{
+	font-family:"Montserrat";
+	font-weight: 600;
+	color: #FFCA4B ;
+	font-size: 2em;
+	display: inline;
+}
+#lien_connecter{	
+	background: #12C18B;
+	border-radius: 7px;
+	color: white;		
+}
+#lien_connecter:hover,#lien_connecter:focus{
+color: white !important ;
+}
+#menu_separation{
+	width: 0px;
+	border-left: 2px solid #FFCA4B;
+	
+}
+#img_logo{
+	color: #12C18B;
+}
+
+#txt_rate{
+	
+	font-family:"Montserrat";
+	font-weight: 500;
+	color: #223B3E ;
+	font-size: 1.1em;
+}
+/*____________add div forgot password to other divs */
+#div_pg_forgot_pass{
+    width: 100%;
+    height: 50px;
+    background-color:skyblue;
+   
+}
+#div_forgot_pass_mail{
+    width: 100%;  
+   
+}
+#background_forgot{
+    background-color: #F7F6F6;
+    border: thin solid #abe4b2;
+    height: 280px;
+}
+
+#div_forgot_password{
+	text-align: center;
+     display: none; 
+
+}
+#div_forgot_pass_reset{
+	display: none;
+    width: 100%;  
+    
+}
+#div_forgot_pass_verification{
+    display: none;
+    width: 80%;  
+   
+    text-align: left;
+    
+}
+
+#lien_fg_pass_signup a{   
+	font-family:"Montserrat";
+	font-weight: 400;
+	color: #12C18B ;
+	text-decoration: none;
+	cursor: pointer;
+}
+#div_forgot_password input[type="text"],
+#div_forgot_password input[type="password"]{
+	width: 100%;
+}
+#txt_fg_pass_code{
+	
+	font-family:"Montserrat";
+	font-weight: 400;
+	color: #4A696D ;
+	font-size: 1.2em;
+    -webkit-animation-delay: 0.1s;
+    
+}
+#form_forgot_pass2{
+	
+}
+#tb_fg_pass_code{
+	width: 85%;
+    -webkit-animation-delay: 0.2s;
+    
+}
+#btn_fg_pass_continuer{
+
+	border-radius: 7px;
+	background: #223B3E;
+	font-family:"Montserrat";
+	font-weight: 500;
+	border: none;
+	
+    -webkit-animation-delay: 0.3s;
+    
+}
+#lien_fg_pass_renvoyer{
+	color: #4A696D;
+  	font-family:"Montserrat";
+	font-weight: 300;
+	font-size:0.9em ;
+	
+    -webkit-animation-delay: 0.4s;
+}
+#lien_fg_pass_renvoyer a{
+	color: #12c18b;
+	text-decoration: underline;
+	font-family:"Montserrat";
+	font-weight: 300;
+	cursor: pointer;
+    
+    
+}
+#txt_fg_pass_mdp,#tb_fg_pass_mdp,#tb_fg_pass_confirm,
+#btn_fg_pass_reset,#div_pg_forgot_pass,#txt_fg_pass_verifier,
+#tb_fg_pass_mail,#fg_pass_captcha,#btn_fg_pass_valider,
+#lien_fg_pass_signup{
+   
+}
+#txt_fg_pass_mdp{
+    -webkit-animation-delay: 0.1s;
+    font-family:"Montserrat";
+	font-weight: 500;
+	color: #223B3E ;
+	font-size: 1em;
+	
+}
+#tb_fg_pass_mdp{
+	width: 80%;
+    -webkit-animation-delay: 0.3s;
+}
+#btn_fg_pass_reset{
+    -webkit-animation-delay: 0.7s;
+    display: block;
+   ;
+	
+	border-radius: 7px;
+	background:  #223B3E;
+  	font-family:"Montserrat";
+	font-weight: 600;
+	border: none;
+	
+}
+#tb_fg_pass_confirm{
+    -webkit-animation-delay: 0.5s;
+}
+#tb_fg_pass_confirm{
+	width: 80%;
+}
+#div_pg_forgot_pass{
+    -webkit-animation-delay: 0.1s;
+}
+#txt_fg_pass_verifier{
+    -webkit-animation-delay: 0.2s;
+    font-family:"Montserrat";
+	font-weight: 500;
+    color: #223B3E;
+    
+    font-size: 1em;
+}
+
+#tb_fg_pass_mail{
+    -webkit-animation-delay: 0.3s;
+   
+    color: #727E7F;
+	width: 80%;
+}
+
+#recaptcha1{
+    -webkit-animation-delay: 0.4s;
+}
+.mdl-textfield__input{
+	
+}
+#btn_fg_pass_valider{
+    -webkit-animation-delay: 0.5s;
+    display: inline;
+    
+	border-radius: 7px;
+	background: #223B3E;
+  	font-family:"Montserrat";
+	font-weight: 500;	
+	border: none;
+
+}
+#lien_fg_pass_signup{
+    -webkit-animation-delay: 0.6s;
+    	
+    	color:#727E7F;
+    	font-family:"Montserrat";
+		font-weight: 400;
+	
+}
+	#lien_signin{
+		text-decoration: none;
+		cursor: pointer;
+	}
+
+#btn_chat {
+  color: #fff;
+  background-color: ;
+
+}
+#btn_rappeler,#div_chat{	
+	
+}
+
+#div_btn_icon{
+	position: fixed;
+	 position:absolute;
+    bottom:4%;
+    right:10%;
+    
+    bottom: 25px;
+    right: 13%; 
+}
+	/* ********************** */
+#rating_div{
+    width: 80%;
+    height: 100%;
+    color: #9A9999;
+    display: none;
+
+}
+
+#les_commentaires{
+    overflow-y: auto;
+    height: 480px;
+
+}
+#les_commentaires .txt_review_commandes,#les_commentaires  .txt_review_date{
+    font-size: 0.7em;
+}
+#les_commentaires .txt_review_commandes{
+    display: inline;
+}
+.txt_review{
+    font-size: 0.95em;
+    font-weight: 400;
+}
+#les_commentaires h3{
+    font-size: 1.5em;
+}
+#les_commentaires h3,#number_reviews{
+    color: #12C18B;
+}
+#score_rating{
+    font-size: 50px;
+    color: #223B3E;
+    height: 100%;
+    line-height: 50px;
+    font-weight: 300;
+   
+}
+
+/* ******
+
+**************** */
+#txt_copyrights{
+	height: 7%;
+	width: 30%;
+	position: fixed;
+	
+	bottom: 0px;
+	font-family:"Montserrat";
+	font-weight: 500;
+	color:#727E7F;
+
+}
+.btn-circle.btn-lg1 {
+  width: 50px;
+  height: 50px;
+  padding: 10px 10px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 30px;
+  box-shadow: 3px 3px 15px #cfcfcf;
+  background: #C2C1C3;
+}
+.btn-circle.btn-lg1:hover {background: #12C18B;}
+.btn-circle.btn-lg2 {
+  width: 50px;
+  height: 50px;
+ 
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 30px;
+  box-shadow: 3px 3px 15px #cfcfcf;
+  background: #4A696D;
+}
+.btn-circle.btn-lg2:hover {background: #223B3E;}
+
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label, .mdl-textfield--floating-label.is-dirty .mdl-textfield__label, .mdl-textfield--floating-label.has-placeholder .mdl-textfield__label {
+    color: #12C18B;
+    font-size: 12px;
+    top: 4px;
+    visibility: visible;
+}
+.mdl-textfield__label:after{
+	background-color: #12C18B;
+	bottom: 15px;
+
+}
+.mdl-checkbox.is-checked .mdl-checkbox__tick-outline {
+	background-color: #12C18B;
+}
+.mdl-checkbox.is-checked .mdl-checkbox__box-outline {
+    border: 2px solid #12C18B;
+}
+#btn_signin_in{
+	padding-left: 13%;
+	padding-right: 13%;
+	padding-top: 2.5%;
+	border-radius: 7px;
+	background: #223B3E;
+  	font-family:"Montserrat";
+	font-weight: 500;	
+	padding-bottom: 2.5%;
+	border: none;
+	
+}
+.mdl-textfield__label {
+	font-size: 15px;
+	font-family:"Montserrat";
+	font-weight: 300;
+	color: #727E7F;
+	top: 10px;
+	
+}
+
+#txt_signup{
+		line-height: 20px;
+	font-size: 2.80em;
+	-webkit-animation-duration: 0.5s;
+	color: #FFCA4B;
+	font-family:"Montserrat";
+	font-weight: 300;
+	
+}
+#btn_sign_up{
+	
+	border-radius: 7px;
+	background: #223B3E;
+	font-family:"Montserrat";
+	font-weight: 500;
+	border: none;
+	float: right;
+	
+}
+#recaptcha2{
+	display: inline;
+	float: left;
+}
+#already{
+	text-align: center;
+	
+	
+}
+#already p{
+	font-family:"Montserrat";
+	font-weight: 400;
+	color: #4A696D;
+}
+#already a{
+	font-family:"Montserrat";
+	font-weight: 400;
+	color: #12C18B;
+}
+/* ********************** */
+
+#div_demande_checkmail,#div_demander_login,#div_demande_signup,#div_demande_signin{
+    width: 80%;
+    height: 430px;
+    display: none;
+    font-size: 1.7em;
+   text-align: center;
+    background-color:#F7F6F6 ;
+     border: thin solid #ABE4D2;
+   
+}
+#div_demande_login_buttons{
+    
+    
+}
+
+#txt_demande_login{
+   
+    font-size: 1.3em;
+    width: 70%;
+  
+}
+#txt_reviews_average{
+	font-size: 4em;
+	display: inline;
+    line-height: 100px; 
+}
+#div_reviews_average_stars{
+	display: inline;
+}
+#div_reviews_average{
+    padding-right: 0;
+    padding-left: 9px;
+}
+.img_review_profil{
+	width: 60px;
+	height: 70px;
+	border-radius: 50%;
+	
+   
+    
+}
+
+.fo9image{
+	width: 100%;
+    height: 110px;
+	
+	border: thin solid #abe4b2;
+	
+	background-color: #F7F6F6;
+    border: thin solid #ABE4D2;
+
+}
+.fo9image img{
+	display: inline;
+}
+#div_demande_signin{
+    display: none;
+}
+/* ___________________________ */
+#div_chat{
+    width: 200px;
+    height: 170px;
+    background-color: black;
+    display: none;
+    position: absolute;
+  
+    bottom: 25px;
+    right: 13%; 
+}
+
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+    
+}
+li.dropdown:hover{
+    color: #727E7F;
+}
+#uername:hover{
+    color: #727E7F;
+}
+.navbar-default .navbar-nav > li.dropdown:hover > a, 
+.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+    
+    color: #727E7F !important ;
+}
+#info_servi h2,#info_servi h3{
+font-size: 1.8em;
+}
+#rating_div h2,#rating_div h3{
+    line-height:25px;
+    font-size: 1.5em;
+   font-weight: 300;
+   
+}
+#number_reviews_out{
+    color: #12C18B;
+    height: 24px;
+    line-height: 24px;
+    
+}
+.div_reviews_add{
+    
+}
+#txt_review_average{
+    
+   
+}
+#les_commentaires h3{
+    font-size: 1.5em;
+}
+#div_reviews_button_add{
+    position: relative;
+    height: 50px;
+}
+#img_infos_profile{
+    border: 3px solid #12C18B;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+}
+
+#div_profile h3{
+   font-family:"Montserrat";
+    font-weight: 400;
+    color: #4A696D;
+    font-size: 1.5em;
+    margin-top: -10px;
+    
+}
+#div_profile{
+    padding-bottom: 2%;
+}
+.nav-tabs {
+  border-bottom: 1px solid #ABE4D2;
+}
+.nav-tabs > li {
+  float: left;
+  
+}
+.nav-tabs > li > a {
+  
+  line-height: 1.42857143;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+  color: #727E7F;
+}
+.nav-tabs > li > a:hover {
+  border-color: #eee #eee #ABE4D2;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #555;
+  cursor: default;
+  background-color: #F7F6F6;
+  border: 1px solid #ABE4D2;
+  border-bottom-color: transparent;
+}
+
+#div_profile{
+    border-left: 1px solid #ABE4D2;
+    border-right: 1px solid #ABE4D2;
+    border-bottom:  1px solid #ABE4D2;
+    background-color: #F7F6F6;
+
+}
+#txt_infos_pers h3,#txt_infos_devise h3,#txt_infos_payment h3{
+    color: #12C18B;
+}#txt_infos_devise {
+    margin-top: 1.5%;
+}
+#txt_infos_pers{
+       font-family:"Montserrat";
+    font-weight: 400;
+}
+thead{
+    position: 
+}
+#txt_infos_mail, #txt_info_name,#txt_infos_tel,#txt_infos_adresse,#txt_info_mode,#txt_infos_bank,#txt_infos_bank_nom,#txt_infos_rib,#txt_infos_devise_desc{
+   color: #4A696D;
+   font-size: 0.9em;
+   font-family:"Montserrat";
+    font-weight: 400;
+}
+#div_infos_middle{
+    font-size: 1em;
+}
+#div_infos_middle h3{
+    font-size: 1.2em;
+
+}
+#row_devise{
+    height: 50px;
+    
+     
+}
+#row_devise h3{
+   
+}
+#list_item_profile{
+    color: #12C18B;
+    margin-left: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.slougia{
+
+}
+#div_profile h3{
+   
+}
+#tb_demander_username_up,#tb_demander_email_up,#tb_demander__tel_up{
+    width: 60%;
+  
+}
+#tb_demander_password_up,#tb_demander_confirm_password{
+    width: 30%;
+   ;
+}
+#btn_infos_save_cancel,#tb_infos_mail,#tb_info_nom_prenom,#tb_infos_tel,#tb_infos_adresse,#tb_infos_mode
+,#tb_infos_bank,#tb_info_bank_nom_prenom{
+    display: none;
+   
+}
+
+#div_pmp .row .row div,#div_pmp{
+    overflow: hidden;
+}
+#btn_infos_save{
+    width: 100px;
+}
+#btn_infos_cancel{
+   
+     width: 100px;
+}
+#infos_personnelle_div,#devise_details,#mode_details{
+    border-left: 1px solid #727E7F;
+}    
+#devise_details{
+   
+}
+#mode_details{
+    
+}

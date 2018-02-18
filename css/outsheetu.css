@@ -1,0 +1,64 @@
+/* ----------*/
+#txt_demande_login{
+        font-size: 2em;
+        font-weight: 300;
+}
+#lien_demande_forgot_in {
+    font-size: 0.9em;
+}
+#have_demande_not {
+    margin-top: 25px;
+}
+#lien_demande_signup{
+    cursor: pointer;
+}
+#div_demande_checkmail p {
+    font-size: 2.5em;
+}
+#txt_demander_signup{
+    -webkit-animation-delay: 0s;
+}
+#tb_demander_username_up{
+     -webkit-animation-delay: 0.1s;
+}
+#demander_password_sign_up{
+     -webkit-animation-delay: 0.2s;
+}
+#tb_demander_email_up{
+     -webkit-animation-delay: 0.3s;
+}
+#tb_demander__tel_up{
+     -webkit-animation-delay: 0.4s;
+}
+#captcha_button_demander{
+     -webkit-animation-delay: 0.5s;
+}
+#already_demander{
+     -webkit-animation-delay: 0.6s;
+    margin-top: 15px;
+}
+#svg_done{
+    -webkit-animation-delay: 0s;
+    overflow: hidden;
+}
+#txt_signup_done_title{
+    -webkit-animation-delay: 0.1s;
+    overflow: hidden;
+}
+#txt_signup_done_subtitle{
+    -webkit-animation-delay: 0.2s;
+    overflow: hidden;
+}
+#already_demander p{
+    font-size: 1.2em;
+}
+#already_demander a{
+    color: #12c18b;
+    cursor: pointer;
+}
+#div_demande_checkmail p.text-info{
+    color: #727e7f !important;
+}
+#signupok{
+    color: #12c18b;
+}

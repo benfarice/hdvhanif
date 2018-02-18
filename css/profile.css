@@ -1,0 +1,224 @@
+*{
+     font-family:"Montserrat";
+  }
+::-webkit-scrollbar{
+    width: 4px;
+    background-color: #d6dedf;
+    border-radius: 15px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #90a8ab;
+    box-shadow: inset 0 0 6px #90a8ab;
+}
+.combopicker{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    background: #F8F8F8;
+    border-bottom: 1px solid rgba(0,0,0,.12);
+    color :#727E7F;
+    padding: 4px 0;
+    padding-top: 4%;
+}
+#tb_infos_mail{
+    color: #c2c1c3;
+}
+body{
+    position: absolute;
+}
+.table td,.table th{
+  
+    border:none !important;
+    vertical-align: middle !important;
+}
+.table tr{
+    background-color: whitesmoke;
+}
+.table thead{
+    background-color: white;
+}
+.table .h{
+    background-color: white;
+   
+}
+#div_info_head{
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+/*
+.table-hover > tbody > tr:hover {
+  background-color: #12C18B;
+}
+*/
+.table-hover > tbody > tr th p{
+    margin-left: 15px;
+    display: inline;
+}
+.table-bordered,.table, .table-hover {
+ 
+ border-collapse:separate; 
+    border-spacing:0 10px;
+}
+
+.boulssan{
+  margin-bottom: 8px;
+}
+#div_commandes_table{
+     height: 440px;
+   overflow-y: auto;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    
+}
+
+#div_commandes_table thead{
+    background-color: white;
+    border-width: 0;
+}
+#div_commandes_table tr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.table td,.table th,.table-hover > tbody > tr > td,.table-hover > tbody > tr > th,.table-bordered{
+  
+    border:none;
+}
+/* ----
+outline: thin solid #ABE4D2 ;
+--- */
+.table-hover > tbody > tr,.table-bordered > tbody > tr{
+   padding: 25px;
+   
+   border: 1px solid black  !important ;
+  
+}
+.table-bordered {
+  border-bottom: none;
+    border-right: none;
+    border-top: none;
+}
+.table-bordered  {
+  border: 1px solid #FFF;
+}
+
+.table-hover > tbody > tr th p{
+    margin-left: 15px;
+    display: inline;
+}
+.table-hover > tbody > tr:hover {
+  
+    cursor: default;
+}
+.table-hover > tbody > tr svg{
+  
+    cursor: pointer;
+}
+.table-hover > thead > tr{
+    background-color: #FFF;
+}
+.table-bordered,.table, .table-hover {
+ 
+ border-collapse:separate; 
+    border-spacing:0 10px;
+}
+.table tr{
+    background-color: whitesmoke;
+}
+.table .h{
+    background-color: white;
+    
+   
+}
+.table,.table td,.table th{
+    vertical-align: middle !important;
+}
+#div_commandes_footer{
+    margin-top: 10px;
+}
+#img_ref_profile{
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 25px;
+}
+abbr {
+position: relative;
+}
+abbr:hover::after {
+position: absolute;
+bottom: 100%;
+right: -150px;
+
+display: block;
+padding: 1em;
+background: yellow;
+content: attr(title);
+width: 300px;
+}
+#tb_old_password,#tb_new_password,#tb_confirm_password{
+    width: 100%;
+    margin-top: 25px;
+}
+#tb_infos_mail,#tb_infos_mail,#txt_info_mode,#tb_infos_mode{
+    -webkit-animation-delay: 0.1s;
+}
+#txt_info_name,#tb_info_nom_prenom,#txt_infos_bank,#tb_infos_bank{
+    -webkit-animation-delay: 0.2s;
+}
+#txt_infos_tel,#tb_infos_tel,#txt_infos_bank_nom,#tb_info_bank_nom_prenom{
+     -webkit-animation-delay: 0.3s;
+}
+#txt_infos_adresse,#tb_infos_adresse,#txt_infos_rib,#tb_infos_rib{
+    -webkit-animation-delay: 0.4s;
+}
+#txt_infos_adresse{
+  line-height: 14px;
+}
+#db_infos_devise_desc,#txt_infos_devise_desc{
+      -webkit-animation-delay: 0.5s;
+}
+#tb_infos_rib,#db_infos_devise_desc,#div_commandes_filter{
+  display: none;
+}
+#div_ref_right{
+  height: 430px;
+  overflow: auto;
+}
+table thead td,table thead th{
+  font-weight: 500;
+  color:#12C18B;
+}
+#div_commandes_filter{
+  background-color: #ececec;
+  position: absolute;
+  top:0;
+  right: 40px;
+  /*width: 240px;*/
+}
+#btn_infos_cancel{
+    background-color: white;
+    color: #12c18b;
+    border: 0.5px solid #c2c1c3;
+}
+.active a{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#div_commandes_table{
+    padding-right: 8px;
+}
+#div_commandes_filter button,#div_commandes_filter select{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#div_commandes_filter select{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

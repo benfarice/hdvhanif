@@ -1,0 +1,469 @@
+/* __________________ Debut div_fluid __________________ */
+#div_fluid {
+    height: 100%;
+   	min-height: 100%;
+}
+/* __________________ Debut div_middle __________________ */
+.fill{
+	min-height: 100%;
+	height: 100%;  
+}
+/* __________________ Debut div_header __________________ */
+#div_header{
+	margin-top: 3%;
+	max-height: 15%;
+}
+/* __________________ Debut navbar header __________________ */
+ #img_logo{
+	color: #12C18B;
+}
+.salam{
+  margin-top: 10%;
+  font-family:"Montserrat";
+  font-weight: 400;
+  color:#727E7F;
+  font-size: 1.3em;
+}
+.navbar-header #txt_hdv{
+	font-family:"Montserrat";
+	font-weight: 600;
+	color: #223B3E;
+	font-size: 1.2em;
+	display: inline;
+}
+.navbar-header #txt_point{
+	font-family:"Montserrat";
+	font-weight: 600;
+	color: #FFCA4B ;
+	font-size: 2em;
+	display: inline;
+}
+/* __________________ Fin navbar header __________________ */
+.nav a{
+	font-family:"Montserrat";
+	font-weight: 400;
+	font-size: 1.2em;
+}
+.navbar-header a{
+	font-family:"Montserrat";
+	font-weight: 600;	
+	font-size: 1.6em;
+}
+.navbar-default .navbar-nav > li.dropdown:hover > a, 
+.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+    
+    color: #727E7F !important ;
+}
+#menu_separation{
+	width: 0px;
+	border-left: 2px solid #FFCA4B;
+	margin-left: 10px;
+}
+#profile_photo{
+    border-radius: 50%;
+    display: inline;
+    position: absolute;
+    top: 0;
+    margin-left: -10px;
+    border: 1px solid #12C18B;
+}
+.dropdown{
+  display: inline;
+}
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+    
+}
+li.dropdown:hover{
+    color: #727E7F;
+}
+#combopicker{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    background: #F8F8F8;
+    border-bottom: 1px solid rgba(0,0,0,.12);
+    color :#727E7F;
+    padding: 4px 0;
+    padding-top: 4%;
+
+}
+#nav_connecter svg{
+    margin-right: 10px;
+}
+#nav_connecter a{
+    color:#727E7F;
+    font-size: 0.9em;
+    font-family:"Montserrat";
+	font-weight: 400;
+    padding-top : 10px;
+}
+#horizontal_row_av_connecter{
+   margin-right: 15%;
+    margin-left: 15%;
+    background-color: #ECECEC;
+}
+
+/* __________________ Fin div_header __________________ */
+/* __________________ Fin div_middle __________________ */
+/* __________________ Debut div body __________________ */
+#div_body{
+	height: 75%;
+	padding-top: 8%;
+	width: 100%;
+}
+#div_row_page1{
+    overflow: visible;
+    margin-bottom: 20px;
+}
+/* __________________  _ Debut facebook Rating __________________ */
+#div_fb_rat{
+	text-align: center;
+
+}
+#div_hr{
+	padding-left: 9%;
+	padding-right: 9%;
+	padding-top: 2%;
+}
+#txt_rate{
+	margin-top: 4%;
+	font-family:"Montserrat";
+	font-weight: 500;
+	color: #223B3E ;
+	font-size: 1.1em;
+}
+#btn_rate,#btn_rate_in,#btn_review_add{
+	padding: 3% 2%;
+	margin-top: 4%;
+	border-radius: 7px;
+	background:  #12C18B;
+  	font-family:"Montserrat";
+	font-weight: 500;
+	border: none;
+}
+/* __________________ Fin facebook  __________________ */
+/* __________________  _ Debut  Home In __________________ */
+#div_home_in_vendre,#div_home_in_acheter{
+    
+    color: white;
+    position: relative;
+    border-radius: 35px;
+}
+#img_home_in_acheter,#img_home_in_vendre{
+ 
+    z-index: 1;
+}
+#txt_home_in_acheter,#txt_home_in_vendre,#btn_home_in_vendre,#btn_home_in_acheter{
+    position: absolute;
+    
+    z-index: 2;
+}
+#txt_home_in_acheter,#txt_home_in_vendre{
+    bottom: 45%;
+}
+
+
+#btn_home_in_vendre,#btn_home_in_acheter{
+     bottom: 35%;
+    background-color: Transparent;
+     background-repeat:no-repeat;
+      cursor:pointer;
+}
+#div_home_in_vendre{
+    margin-top: -50px;
+}
+/* __________________  _ Fin  Home In __________________ */
+/* __________________  _ Debut Game acheter in  __________________ */
+#div_acheter_in{
+    overflow: hidden;
+}
+#div_dofus_2{
+    -webkit-animation-delay: 0.3s;
+}
+#div_dofus_129{
+    -webkit-animation-delay: 0.4s;
+}
+#div_dofus_touch{
+    -webkit-animation-delay: 0.5s;
+}
+#div_demander,#div_server,#div_done,#div_acheter_in,#div_forgot_pass_done{
+     display: none;
+}
+#salouti{
+    text-align: center;
+    margin-top: 2%;
+}
+#div_acheter_in{
+    overflow: hidden;
+    width: 100%;
+}
+#div_acheter_in{
+     display: none;
+}
+
+#div_demander,#div_server,#div_done,#div_acheter_in{
+     display: none;
+}
+#div_pg_in{
+    width: 60%;
+    height: 50px;
+   /* background-color: cornflowerblue;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+#div_pg_in,#div_dofus_2,#div_dofus_touch,#div_dofus_129{
+    
+    overflow: hidden;
+}
+#div_pg_in{
+    -webkit-animation-delay: 0.5s;
+}
+#div_pg_in,#div_dofus_2,#div_dofus_touch,#div_dofus_129{
+    -webkit-animation-duration: 1.5s;
+    overflow: hidden;
+}
+#div_game{
+    text-align: center;
+   
+}
+#div_dofus_2,#div_dofus_touch,#div_dofus_129{
+        width: 80%;
+         border-radius:40px;
+        overflow: hidden;
+}
+#div_dofus_2{
+    -webkit-animation-delay: 0.3s;
+}
+#div_dofus_129{
+    -webkit-animation-delay: 0.4s;
+}
+#div_dofus_touch{
+    -webkit-animation-delay: 0.5s;
+}
+#div_dofus_2,#div_dofus_touch,#div_dofus_129{
+        width: 80%;
+         border-radius:40px;
+        overflow: hidden;
+}
+#img_dofus_2,#img_dofus129,#img_dofus_touch{
+   
+    height: 250px;
+     margin-left: auto;
+    margin-right: auto;
+}
+#img_dofus_2
+{
+    background:#788f92 url('../images/Dofus2_bg.png') no-repeat center center;
+}
+#img_dofus129{
+    background:#788f92 url('../images/Dofus129_bg.png') no-repeat center center;
+}
+#img_dofus_touch{
+     background:#788f92 url('../images/Dofus_touch_bg.png') no-repeat center center;
+}
+#img_dofus_2,#img_dofus129,#img_dofus_touch{
+    height: 250px;
+     margin-left: auto;
+    margin-right: auto;
+}
+#dofus2_logo,#dofus129_logo,#dofus_touch_logo{
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    bottom: 15px;
+    left: 40%;
+}
+.blend.multiply
+ {
+    background-blend-mode: luminosity;
+ }
+.blend.multiply:hover
+ {
+    background-blend-mode: normal;
+    transform:scale(1.1,1.1);
+ }
+ #dofus2_logo,#dofus129_logo,#dofus_touch_logo{
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    bottom: 15px;
+    left: 40%;
+}
+/* __________________  _ Fin  Game acheter in  __________________ */
+/* __________________  _ Debut  server  __________________ */
+#div_server,#div_demander,#div_done{
+    width: 100%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+#div_server{
+    padding: 10px;
+    margin: 10px;
+}
+#div_prix_region{
+    width: 80%;
+    height: 50px;
+    
+    margin-left: auto;
+    margin-right: auto;
+ }
+ #div_prix_region span{
+  color: #12C18B ;
+}
+#div_prix_region a{
+  color: black !important ;
+}
+#div_prix_region{
+    height: 15px;
+    margin-top: 15px;
+}
+#db_server_prix span
+{
+   color: #12C18B; 
+}
+#list_server{
+    overflow: auto;
+    height:295px;
+    padding-right: 8px;
+}
+#list_server{
+    overflow: auto;
+    height:355px;
+    width: 70%;
+    margin: auto;
+}
+#list_server thead{
+    background-color: white;
+    border-width: 0;
+}
+#list_server tr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#list_server tr:first-child {
+    margin-top: 0;
+}
+.server_nom{
+    margin-left: 15px;
+ }
+ .n_icon{
+    cursor: pointer;
+}
+/* _______________ Debut table ___________________*/
+.table tr{
+    background-color: whitesmoke;
+}
+.table .h{
+    background-color: white;
+   
+}
+.table td,.table th{
+  
+    border:none !important;
+    vertical-align: middle !important;
+}
+.table-hover > tbody > tr{
+    border: 4px solid green;
+}
+.table-hover > tbody > tr th p{
+    margin-left: 15px;
+    display: inline;
+}
+.table-hover > tbody > tr:hover {
+  background-color: #12C18B;
+}
+
+.table-bordered,.table, .table-hover {
+ 
+ border-collapse:separate; 
+    border-spacing:0 10px;
+}
+.table tr{
+    background-color: whitesmoke;
+}
+.table .h{
+    background-color: white;
+    
+   
+}
+.table,.table td,.table th{
+    vertical-align: middle !important;
+}
+
+.table td,.table th,.table-hover > tbody > tr > td,.table-hover > tbody > tr > th,.table-bordered{
+  
+    border:none;
+}
+
+.table-hover > tbody > tr,.table-bordered > tbody > tr{
+   padding: 25px;
+   outline: thin solid #ABE4D2 ;
+   border: 1px solid black  !important ;
+  
+}
+.table-bordered {
+  border-bottom: none;
+    border-right: none;
+    border-top: none;
+}
+.table-bordered  {
+  border: 1px solid #FFF;
+}
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+  border: 1px solid #F7F6F6;
+}
+
+.table-hover > tbody > tr th p{
+    margin-left: 15px;
+    display: inline;
+}
+.table-hover > tbody > tr:hover {
+  background-color: #12C18B;
+    cursor: pointer;
+}
+
+.table-bordered,.table, .table-hover {
+ 
+ border-collapse:separate; 
+    border-spacing:0 10px;
+}
+/* _______________ Fin table ___________________*/
+/* __________________  _ Fin  server  __________________ */
+/* ______________ Debut div demander __________________ */
+
+/*    background-color: darkcyan;
+}
+#div_demander{
+    background-color: cornflowerblue;
+}*/
+#div_demander,#div_done{
+    width: 100%;
+    height: 300px;
+    margin-top: 5%;
+   
+}
+/* ______________ Fin div demander __________________ */
+
+/* __________________ Fin div body __________________ */
+/* ______________ Debut Rating div __________________ */
+#rating_div{
+    width: 80%;
+    height: 100%;
+    color: #9A9999;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+}
+/* ______________ Fin Rating div __________________ */
+/* __________________ Fin div_fluid __________________ */

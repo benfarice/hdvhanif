@@ -1,0 +1,70 @@
+#div_demander{
+    background-color: #f7f6f6;
+    border: 1px solid #abe4d2;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    padding-bottom: 30%;
+}
+#div_demander .mdl-textfield {
+    padding-top: 0;
+}
+#div_demander label{
+     color: #9a9999;
+    font-size: 1.2em;
+    font-family:"Montserrat";
+	font-weight: 300;
+    text-align: left;
+}
+
+#div_demander select{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    background: #F8F8F8;
+    border-bottom: 1px solid #12c18b ;
+    color :#727E7F;
+}
+.justeme{
+    margin-top: 3%;
+}
+#db_total_prix1{right: 20%;}
+#db_total_prix{width: 70% !important;}
+#txt_total_prix{
+    color: #727E7F !important;
+    font-weight: 600 !important;
+}
+#txt_emander_title{
+    font-size: 1.2em;
+    font-family:"Montserrat";
+	font-weight: 600;
+    color: #9a9999;
+    text-align: center;
+}
+#btn_demander{
+    text-align: center;
+    padding:6px 30px;
+	margin-top: 15px;
+	background:  #12C18B;
+  	font-family:"Montserrat";
+	font-weight: 400;
+	border: none;
+}
+/*---------------*/
+#txt_emander_title{
+     -webkit-animation-delay: 0s;
+}
+#de_d_1{
+     -webkit-animation-delay: 0.1s;
+}
+#de_d_2{
+     -webkit-animation-delay: 0.2s;
+}
+#de_d_3{
+     -webkit-animation-delay: 0.3s;
+}
+#salouti{
+     -webkit-animation-delay: 0.4s;
+}

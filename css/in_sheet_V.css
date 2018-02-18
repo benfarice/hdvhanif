@@ -1,0 +1,80 @@
+.txt_review_profile_name_in{
+  color: #12C18B !important;
+  font-family:"Montserrat";
+  font-weight: 400!important;
+  font-size: 1.2em !important;
+  line-height: 25px !important;
+  margin-top: 0;
+  text-transform: capitalize;
+  margin-bottom: 0;
+  margin: 0;
+}
+.txt_review_in{
+  padding: 0;
+  margin: 0;
+  font-size: 0.95em;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+.txt_review_commandes_in{
+  font-size: 10px;
+  margin-top: -8px;
+  width: 115px;
+  text-align: right;
+}
+.txt_review_date_in{
+  font-size: 10px;
+  margin-top: -8px;
+  width: 115px;
+  letter-spacing: 0;
+  font-weight: 400;
+  line-height: 24px;
+}
+.nbr_commandes_in{
+    width: 115px;
+    margin-right: 0;
+    padding-right: 0;
+}
+#div_game_in{
+	text-align: center;
+    margin-top: 7%;
+} 
+#div_dofus_2_in,#div_dofus_touch_in,#div_dofus_129_in{
+      width: 280px;
+      height: 230px;
+      border-radius:15px;
+      overflow: hidden;
+      cursor: pointer;
+}
+#div_pg_in,#div_pg_in_txt,#div_dofus_2_in,#div_dofus_touch_in,#div_dofus_129_in{
+    -webkit-animation-duration: 0.5s;
+    overflow: hidden;
+}
+#img_dofus_2_in
+{
+    background:#788f92 url('../images/Dofus2_bg.png') no-repeat center center;
+}
+#img_dofus129_in{
+    background:#788f92 url('../images/Dofus129_bg.png') no-repeat center center;
+}
+#img_dofus_touch_in{
+     background:#788f92 url('../images/Dofus_touch_bg.png') no-repeat center center;
+}
+#img_dofus_2_in,#img_dofus129_in,#img_dofus_touch_in{
+      width: 280px;
+      height: 230px;
+     margin-left: auto;
+    margin-right: auto;
+}
+.blend.multiply
+ {  background-blend-mode: luminosity;
+ }
+ #dofus2_logo_in,#dofus129_logo_in,#dofus_touch_logo_in{
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    bottom: 15px;
+    left: 40%;
+    display: none;
+}

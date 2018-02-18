@@ -1,0 +1,160 @@
+*{
+     font-family:"Montserrat";
+  }
+body{
+    position: absolute;
+}
+.table td,.table th{
+  
+    border:none !important;
+    vertical-align: middle !important;
+}
+.table tr{
+    background-color: whitesmoke;
+}
+.table thead{
+    background-color: white;
+}
+.table .h{
+    background-color: white;
+   
+}
+/*
+.table-hover > tbody > tr:hover {
+  background-color: #12C18B;
+}
+*/
+.table-hover > tbody > tr th p{
+    
+    display: inline;
+}
+.table-bordered,.table, .table-hover {
+ 
+ border-collapse:separate; 
+    border-spacing:0 10px;
+}
+#div_commandes_table{
+     height: 440px;
+   overflow-y: auto;
+    width: 90%;
+    
+    position: relative;
+    
+}
+
+#div_commandes_table thead{
+    background-color: white;
+    border-width: 0;
+}
+#div_commandes_table tr{
+  
+}
+.table td,.table th,.table-hover > tbody > tr > td,.table-hover > tbody > tr > th,.table-bordered{
+  
+    border:none;
+}
+/* ----
+outline: thin solid #ABE4D2 ;
+--- */
+.table-hover > tbody > tr,.table-bordered > tbody > tr{
+
+   
+   border: 1px solid black  !important ;
+  
+}
+.table-bordered {
+  border-bottom: none;
+    border-right: none;
+    border-top: none;
+}
+.table-bordered  {
+  border: 1px solid #FFF;
+}
+
+.table-hover > tbody > tr th p{
+    
+    display: inline;
+}
+.table-hover > tbody > tr:hover {
+  
+    cursor: pointer;
+}
+.table-hover > thead > tr{
+    background-color: #FFF;
+}
+.table-bordered,.table, .table-hover {
+ 
+ border-collapse:separate; 
+    border-spacing:0 10px;
+}
+.table tr{
+    background-color: whitesmoke;
+}
+.table .h{
+    background-color: white;
+    
+   
+}
+.table,.table td,.table th{
+    vertical-align: middle !important;
+}
+#div_commandes_footer{
+    
+}
+#img_ref_profile{
+    height: 80px;
+    border-radius: 50%;
+   
+}
+abbr {
+position: relative;
+}
+abbr:hover::after {
+position: absolute;
+bottom: 100%;
+right: -150px;
+
+display: block;
+
+background: yellow;
+content: attr(title);
+width: 300px;
+}
+#tb_old_password,#tb_new_password,#tb_confirm_password{
+    width: 100%;
+    
+}
+#tb_infos_mail,#tb_infos_mail,#txt_info_mode,#tb_infos_mode{
+    -webkit-animation-delay: 0.1s;
+}
+#txt_info_name,#tb_info_nom_prenom,#txt_infos_bank,#tb_infos_bank{
+    -webkit-animation-delay: 0.2s;
+}
+#txt_infos_tel,#tb_infos_tel,#txt_infos_bank_nom,#tb_info_bank_nom_prenom{
+     -webkit-animation-delay: 0.3s;
+}
+#txt_infos_adresse,#tb_infos_adresse,#txt_infos_rib,#tb_infos_rib{
+    -webkit-animation-delay: 0.4s;
+}
+
+#db_infos_devise_desc,#txt_infos_devise_desc{
+      -webkit-animation-delay: 0.5s;
+}
+#tb_infos_rib,#db_infos_devise_desc,#div_commandes_filter{
+  display: none;
+}
+#div_ref_right{
+  height: 430px;
+  overflow: auto;
+}
+table thead td,table thead th{
+  font-weight: 500;
+  color:#12C18B;
+}
+#div_commandes_filter{
+  background-color: white;
+  position: absolute;
+  top:0;
+  right: 40px;
+  width: 240px;
+}
